@@ -22,5 +22,21 @@
   "bugs": {
     "url": "https://github.com/fiskus/scroll-pan-resize/issues"
   },
-  "homepage": "https://github.com/fiskus/scroll-pan-resize#readme"
+  "homepage": "https://github.com/fiskus/scroll-pan-resize#readme",
+  "devDependencies": {
+    "babelify": "^6.1.3",
+    "browserify": "^11.0.1"
+  },
+  "dependencies": {
+    "lodash.debounce": "^3.1.1"
+  },
+  "browserify": {
+    "transform": [
+      [
+        "babelify", {
+          "loose": "all"
+        }
+      ]
+    ]
+  }
 }
