@@ -10,7 +10,10 @@
         <script>
          WindowListener({
              scroll: function (ys) {
-                 console.log(ys);
+                 console.log('scroll:', ys);
+             },
+             resize: function (wh) {
+                 console.log('resize:', wh);
              },
              delay: 200,
              maxWait: 200,
