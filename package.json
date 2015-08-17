@@ -1,0 +1,26 @@
+{
+  "name": "scroll-pan-resize",
+  "version": "0.0.1",
+  "description": "Scroll, pan and resize listener",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "specs/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:fiskus/scroll-pan-resize.git"
+  },
+  "keywords": [
+    "scroll",
+    "pan",
+    "resize",
+    "dom",
+    "listener"
+  ],
+  "author": "Maxim Chervonny <fiskus@chervonny.ru> (http://chervonny.ru)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fiskus/scroll-pan-resize/issues"
+  },
+  "homepage": "https://github.com/fiskus/scroll-pan-resize#readme"
+}
