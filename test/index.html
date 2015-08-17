@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <script src="../dist/index.js"></script>
+        <title>Document</title>
+    </head>
+    <body>
+        <div style="border: 1px solid #900; width: 500px; height: 9000px;"></div>
+        <script>
+         WindowListener({
+             scroll: (e) => {
+                 console.log(e);
+             },
+             delay: 200,
+             debounce: {
+                 maxWait: 200
+             }
+         });
+        </script>
+    </body>
+</html>
