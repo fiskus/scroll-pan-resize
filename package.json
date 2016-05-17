@@ -24,21 +24,17 @@
   },
   "homepage": "https://github.com/fiskus/scroll-pan-resize#readme",
   "devDependencies": {
-    "babelify": "^6.1.3",
-    "browserify": "^11.0.1",
-    "http-server": "^0.8.0"
+    "babel-preset-es2015": "^6.6.0",
+    "babelify": "^7.3.0",
+    "browserify": "^13.0.1",
+    "http-server": "^0.9.0"
   },
   "dependencies": {
-    "lodash.debounce": "^3.1.1"
+    "lodash.debounce": "^4.0.6"
   },
   "browserify": {
     "transform": [
-      [
-        "babelify",
-        {
-          "loose": "all"
-        }
-      ]
+      "babelify"
     ]
   }
 }
